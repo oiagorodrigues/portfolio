@@ -1,5 +1,6 @@
 import { OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
+import { Character } from "@/components/Character";
 import { Terrain } from "@/components/Terrain";
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
 
         {/* Terrain */}
         <Terrain />
+
+        {/* Character */}
+        <Character position={[0, 0, 0]} />
 
         {/* Camera controls */}
         <OrbitControls
