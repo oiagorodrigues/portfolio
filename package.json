@@ -1,0 +1,63 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Interactive 3D portfolio inspired by Zelda: Link's Awakening",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "check": "biome check --write .",
+    "lint": "biome lint .",
+    "format": "biome format --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oiagorodrigues/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "threejs",
+    "react",
+    "3d",
+    "zelda",
+    "software",
+    "engineer",
+    "developer",
+    "portfolio",
+    "portfolio 3d",
+    "portfolio 3d react"
+  ],
+  "author": "Iago Rodrigues <yagomello@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oiagorodrigues/portfolio/issues"
+  },
+  "homepage": "https://github.com/oiagorodrigues/portfolio#readme",
+  "devDependencies": {
+    "@biomejs/biome": "2.3.8",
+    "@types/node": "24.10.1",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "@types/three": "0.181.0",
+    "@vitejs/plugin-react": "5.1.1",
+    "typescript": "5.9.3",
+    "vite": "npm:rolldown-vite@7.2.9"
+  },
+  "dependencies": {
+    "@react-three/drei": "10.7.7",
+    "@react-three/fiber": "9.4.2",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "three": "0.181.2"
+  },
+  "packageManager": "pnpm@10.23.0",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "vite": "npm:rolldown-vite@7.2.9"
+    }
+  }
+}
